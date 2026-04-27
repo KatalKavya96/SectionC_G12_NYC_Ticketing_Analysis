@@ -1,0 +1,36 @@
+{
+  "total_rows": 12000,
+  "total_cols": 14,
+  "columns": [
+    "Summons_Number",
+    "Plate_ID",
+    "Registration_State",
+    "Plate_Type",
+    "Issue_Date",
+    "Violation_Code",
+    "Vehicle_Body_Type",
+    "Vehicle_Make",
+    "Vehicle_Color",
+    "Vehicle_Year",
+    "Violation_Description",
+    "Street_Name",
+    "Violation_County",
+    "Fine_Amount"
+  ],
+  "null_counts": {
+    "Summons_Number": 0,
+    "Plate_ID": 343,
+    "Registration_State": 263,
+    "Plate_Type": 363,
+    "Issue_Date": 366,
+    "Violation_Code": 0,
+    "Vehicle_Body_Type": 478,
+    "Vehicle_Make": 474,
+    "Vehicle_Color": 605,
+    "Vehicle_Year": 496,
+    "Violation_Description": 0,
+    "Street_Name": 370,
+    "Violation_County": 512,
+    "Fine_Amount": 457
+  }
+}

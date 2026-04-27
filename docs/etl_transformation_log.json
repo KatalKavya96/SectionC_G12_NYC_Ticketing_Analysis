@@ -1,0 +1,14 @@
+{
+  "step_01": "parsed dates, created month/quarter/weekend columns",
+  "step_02": "fixed negative fines, imputed with median per violation",
+  "step_03": "removed impossible vehicle years",
+  "step_04": "standardized color abbreviations",
+  "step_05": "title cased borough names",
+  "step_06": "consolidated vehicle makes to top 15",
+  "step_07": "grouped body types",
+  "step_08": "validated states, added out of state flag",
+  "step_09": "cleaned streets, extracted suffix",
+  "step_10": "flagged repeat offenders with tiers",
+  "step_11": "added severity and avoidability",
+  "step_12": "removed duplicate summons numbers"
+}

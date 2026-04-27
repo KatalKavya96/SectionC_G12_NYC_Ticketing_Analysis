@@ -1,0 +1,7 @@
+{
+  "rows_before": 12000,
+  "rows_after": 12000,
+  "cols_before": 14,
+  "cols_after": 38,
+  "engineered_features": 24
+}

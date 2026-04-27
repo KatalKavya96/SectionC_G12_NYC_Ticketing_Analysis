@@ -1,0 +1,17 @@
+{
+  "total_tickets": 12000,
+  "total_revenue": 1031500.0,
+  "avg_fine_per_ticket": 85.96,
+  "outofstate_pct": 47.9,
+  "repeat_offender_pct": 0.0,
+  "safety_violation_pct": 22.6,
+  "avoidable_pct": 56.9,
+  "unique_vehicles": 11656,
+  "peak_month": "August",
+  "top_borough_revenue": "Manhattan",
+  "commercial_vehicle_pct": 24.8,
+  "weekend_ticket_pct": 16.0,
+  "avg_vehicle_age": 8.0,
+  "most_frequent_violation": "No Parking - Street Cleaning",
+  "out_of_state_revenue": 492475.0
+}

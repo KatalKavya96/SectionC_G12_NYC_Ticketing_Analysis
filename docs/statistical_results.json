@@ -1,0 +1,29 @@
+{
+  "t_test": {
+    "t_stat": 1.0041,
+    "p_value": 0.315365,
+    "cohens_d": -0.0183
+  },
+  "chi_square": {
+    "chi2": 41.77,
+    "p_value": 0.7246769201412017,
+    "cramers_v": 0.0301,
+    "dof": 48
+  },
+  "anova": {
+    "f_stat": 0.6314,
+    "p_value": 0.6400584018342936
+  },
+  "tukey_significant_pairs": 0,
+  "pearson": {
+    "correlation": -0.0,
+    "p_value": 0.999835
+  },
+  "seasonal": {
+    "seasonal_variance": 0.1059
+  },
+  "regression": {
+    "r_squared": 0.0003,
+    "f_pvalue": 0.3868234352054064
+  }
+}
