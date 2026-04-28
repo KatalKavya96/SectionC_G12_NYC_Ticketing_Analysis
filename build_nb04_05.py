@@ -19,7 +19,7 @@ from statsmodels.stats.multicomp import pairwise_tukeyhsd
 from statsmodels.tsa.seasonal import seasonal_decompose
 import json
 
-df = pd.read_csv('../data/processed/nyc_parking_clean.csv')
+df = pd.read_csv('../data/processed/cleaned.csv')
 results = {}
 print("loaded", len(df), "rows")"""),
 
@@ -102,7 +102,7 @@ nb5 = make_nb([
 import json
 import os
 
-df = pd.read_csv('../data/processed/nyc_parking_clean.csv')
+df = pd.read_csv('../data/processed/cleaned.csv')
 print("loaded", len(df), "rows,", len(df.columns), "columns")"""),
 
     mc("### computing kpis\nthese are the headline numbers that go at the top of our tableau dashboard"),
@@ -148,7 +148,7 @@ for k, v in kpis.items():
     print(f"  {k}: {v}")"""),
 
     mc("### exporting 6 csv files for tableau\nwe pre-aggregate in python so tableau doesnt have to process 12000 rows every time"),
-    cc("""export_dir = '../data/processed/tableau_exports'
+    cc("""export_dir = '../tableau/exports'
 os.makedirs(export_dir, exist_ok=True)
 
 borough = df.groupby('Violation_County').agg(

@@ -14,7 +14,7 @@ nb1 = make_nb([
     cc("""import pandas as pd
 import numpy as np
 import json"""),
-    cc("""df = pd.read_csv('../data/raw/nyc_parking_tickets_sample.csv', dtype=str)
+    cc("""df = pd.read_csv('../data/raw/nyc_parking_uncleaned.csv', dtype=str)
 df.columns = df.columns.str.replace(' ', '_')
 print("rows:", df.shape[0])
 print("columns:", df.shape[1])"""),
@@ -47,7 +47,7 @@ nb2 = make_nb([
 import numpy as np
 import json"""),
     mc("loading raw data"),
-    cc("""df = pd.read_csv('../data/raw/nyc_parking_tickets_sample.csv', dtype=str)
+    cc("""df = pd.read_csv('../data/raw/nyc_parking_uncleaned.csv', dtype=str)
 df.columns = df.columns.str.replace(' ', '_')
 print("starting with", len(df), "rows and", len(df.columns), "columns")"""),
     mc("step 1 - parsing dates and creating time based columns"),
@@ -137,7 +137,7 @@ print("after dedup:", len(df), "rows")"""),
 with open('../docs/etl_transformation_log.json', 'w') as f:
     json.dump(log, f, indent=2)"""),
     mc("saving cleaned dataset"),
-    cc("""df.to_csv('../data/processed/nyc_parking_clean.csv', index=False)
+    cc("""df.to_csv('../data/processed/cleaned.csv', index=False)
 print("final shape:", df.shape[0], "rows,", df.shape[1], "columns")
 print("done")"""),
 ])

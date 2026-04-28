@@ -17,7 +17,7 @@ import seaborn as sns
 import os
 
 os.makedirs('../reports/figures', exist_ok=True)
-df = pd.read_csv('../data/processed/nyc_parking_clean.csv')
+df = pd.read_csv('../data/processed/cleaned.csv')
 print("loaded", len(df), "rows")"""),
 
     mc("### 1. null heatmap\nchecking if there are still any missing values after cleaning"),
