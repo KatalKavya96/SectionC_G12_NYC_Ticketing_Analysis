@@ -12,38 +12,41 @@ DVA is a data analytics capstone focused on city parking violation intelligence.
 
 ## Dashboard Suite
 
-### DB1 — The City Picture
+### DB1 — Enforcement Overview (City-Level Insights)
 For directors and executives.
 
-- KPI tiles: Total Tickets, Revenue, Avg Fine, Repeat Offender %, Safety %, Out-of-State %
-- Monthly trend (tickets vs revenue)
-- Severity donut
-- Borough revenue ranking
-- Borough normalized heatmap
+- KPI tiles: Total Tickets, Total Revenue, Avg Fine per Ticket, Out-of-State %, Safety Violations %, Data Completeness  
+- Monthly trend (tickets vs revenue)  
+- Violation severity donut  
+- Borough revenue comparison  
+- Tickets by day-of-week (weekday vs weekend)  
+- State group distribution  
 
-### DB2 — When and What
+<img width="1302" height="848" alt="Screenshot 2026-04-29 at 11 09 11 PM" src="https://github.com/user-attachments/assets/2e9e19d5-03b7-4981-b080-6bc484292654" />
+
+### DB2 — Violation & Location Analysis
 For operations managers.
 
-- Violation treemap
-- Day-of-week volume analysis
-- Borough × Violation heatmap
-- Avoidable vs Safety stacked analysis
+- Violation treemap  
+- Borough × Violation heatmap  
+- Top violations by revenue  
+- Top streets by fine amount  
+- Vehicle age histogram  
+- KPI tiles: Avoidable Violations %, Unique Vehicles, Top Violation, Top Revenue Violation, Weekend Enforcement %, Top Street Revenue  
 
-### DB3 — Who Is Being Ticketed
+<img width="1299" height="847" alt="Screenshot 2026-04-29 at 11 09 23 PM" src="https://github.com/user-attachments/assets/c9773a60-0ab6-419a-94ba-1afa4c95ebad" />
+
+### DB3 — Vehicle & Offender Insights
 For planners and analysts.
 
-- Top streets stacked bar
-- Vehicle age histogram
-- Vehicle make bubble chart
-- Body type donut
-- State vs Borough table
+- KPI tiles: Revenue per Vehicle, Commercial Vehicle %, Repeat Offender %, Peak Month  
+- Top vehicle makes (bubble chart: Avg Fine vs Ticket Count vs Revenue)  
+- Vehicle count by make (bar chart)  
+- State group × Borough revenue  
+- Vehicle type distribution (donut)  
+- Offender tier revenue (Pareto analysis)
 
-### DB4 — The Repeat Problem
-For policy and compliance teams.
-
-- Repeat offender KPI tiles
-- Pareto revenue chart
-- Repeat offender by borough
+<img width="1301" height="848" alt="Screenshot 2026-04-29 at 11 09 37 PM" src="https://github.com/user-attachments/assets/fa37a6c6-616a-4ec7-83fd-f262a4fe8692" />
 
 ## Key Statistical Methods
 - Independent T-Test
@@ -85,8 +88,8 @@ This project demonstrates how analytics can convert enforcement data into measur
 
 ## Team
 Kavya Katal
+Abuzar Haideri
 Ayush Tiwari
 Vaibhav Rajput
-Abuzar Haideri
 Deepak Pandey
 Abhay Mallik
